@@ -1,6 +1,6 @@
 [package]
 # `name` here is name of the package.
-name = "common"
+name = "pyo3_common"
 version = "0.1.0"
 edition = "2021"
 
@@ -11,7 +11,10 @@ edition = "2021"
 name = "pyo3_common"
 
 # "cdylib" is necessary to produce a shared library for Python to import from.
-crate-type = ["cdylib"]
+crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-pyo3 = { version = "0.19.0", features = ["extension-module"] }
+pyo3 = { version = "0.19.0" }
+
+[features]
+extension-module = ["pyo3/extension-module"]
