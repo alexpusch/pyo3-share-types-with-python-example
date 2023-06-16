@@ -1,2 +1,3 @@
 **/target
 **/__pycache__
+pyo3_common.so
