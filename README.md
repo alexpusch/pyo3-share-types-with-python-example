@@ -1,5 +1,9 @@
 # pyo3 - sharing Rust lib types with Python example
 
+<p align="center">
+  <img src="https://github.com/alexpusch/pyo3-share-types-with-python-example/assets/1129358/3f8d7d99-4018-47d2-b47d-a680d4fd2eda" />
+</p>
+
 ## [Bottom Line](#the-trick)
 
 ## The Use Case
